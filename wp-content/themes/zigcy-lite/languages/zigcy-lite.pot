@@ -1,0 +1,1432 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zigcy Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-30 05:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.0"
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:23
+msgid "OOPS! Page Not Found."
+msgstr ""
+
+#: 404.php:24
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:26
+msgid "Please return to "
+msgstr ""
+
+#: 404.php:26
+msgid "Homepage"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:55
+msgid "Primary"
+msgstr ""
+
+#: functions.php:116
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:118 functions.php:128
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:126
+msgid "Left Sidebar"
+msgstr ""
+
+#. %d: Value
+#: functions.php:141
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr ""
+
+#. %d: Value
+#: functions.php:144
+#, php-format
+msgid " Add Widgetized Footer Region %d."
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:40
+msgid "-- Choose --"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:56
+msgid "Choose"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:77
+msgid "Select Category"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:200
+msgid "Share:"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:213
+msgid "Facebook"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:214
+msgid "Twitter"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:215
+msgid "Google +"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:216
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:218
+msgid "Pinterest"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:220
+msgid "Stumbleupon"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:221
+msgid "Email"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/zigcy-lite-functions.php:308
+msgid "Related Tags"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:343
+msgid "Previous Post"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:360
+msgid "Next Post"
+msgstr ""
+
+#: inc/zigcy-lite-functions.php:722
+msgid "No Products"
+msgstr ""
+
+#: template-parts/content-archive.php:50 template-parts/content-archive.php:53
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19 template-parts/content-single.php:39
+#: template-parts/content.php:44
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:33 inc/etc/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. %s: Name of current post.
+#: template-parts/content-single.php:35
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer/customizer.php:42
+msgid "Free vs Pro Version"
+msgstr ""
+
+#: inc/customizer/customizer.php:43
+msgid "Compare and Buy"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:14
+msgid "Header Setting"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:15
+msgid "This allows to edit the header"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:20
+msgid "General Setting"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:31
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:35
+msgid "Top Header"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:45
+msgid "Top Left Header Text"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:52
+msgid "Shop online or call"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:56
+msgid "Call Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:66
+msgid "Call"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:73
+#: inc/welcome/sections/free_vs_pro.php:59
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:85
+msgid "Choose Header"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:90
+#: inc/customizer/zigcy-lite-sanitize.php:109
+msgid "Layout One"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:91
+#: inc/customizer/zigcy-lite-sanitize.php:110
+msgid "Layout Two"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:97
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:109
+msgid "Show Social Icons"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:113
+#: inc/customizer/zigcy-lite-customizer.php:153
+#: inc/customizer/zigcy-lite-customizer.php:187
+#: inc/customizer/zigcy-lite-customizer.php:362
+#: inc/customizer/zigcy-lite-customizer.php:440
+#: inc/customizer/zigcy-lite-customizer.php:501
+#: inc/customizer/zigcy-lite-customizer.php:596
+#: inc/customizer/zigcy-lite-customizer.php:682
+#: inc/customizer/zigcy-lite-customizer.php:761
+#: inc/customizer/zigcy-lite-customizer.php:880
+#: inc/customizer/zigcy-lite-customizer.php:942
+#: inc/customizer/zigcy-lite-customizer.php:1145
+#: inc/customizer/zigcy-lite-customizer.php:1264
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:114
+#: inc/customizer/zigcy-lite-customizer.php:154
+#: inc/customizer/zigcy-lite-customizer.php:188
+#: inc/customizer/zigcy-lite-customizer.php:363
+#: inc/customizer/zigcy-lite-customizer.php:441
+#: inc/customizer/zigcy-lite-customizer.php:502
+#: inc/customizer/zigcy-lite-customizer.php:597
+#: inc/customizer/zigcy-lite-customizer.php:683
+#: inc/customizer/zigcy-lite-customizer.php:762
+#: inc/customizer/zigcy-lite-customizer.php:881
+#: inc/customizer/zigcy-lite-customizer.php:943
+#: inc/customizer/zigcy-lite-customizer.php:1146
+#: inc/customizer/zigcy-lite-customizer.php:1265
+msgid "No"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:124
+msgid "Open links in new tab"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:149
+msgid "Enable Inner Page Header Image"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:160
+msgid "Inner Page Header Image"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:165
+msgid "Home Setting"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:166
+msgid "This allows to edit the home section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:172
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:183
+msgid "Enable Disable Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:199
+msgid "Slider Type"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:204
+msgid "Category Slider"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:205
+msgid "Smart Slider"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:214
+msgid " Slider Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:226
+msgid "Slider Excerpt Length"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:227
+msgid "Enter word limit for excerpt length"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:236
+msgid "Enter smart slider shortcode"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:250
+msgid "Upload Promo One Image"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:261
+msgid "Promo One Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:272
+msgid "Promo One SubTitle"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:283
+msgid "Promo One Price Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:294
+msgid "Upload Promo Two Image"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:305
+msgid "Promo Two Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:316
+msgid "Promo Two SubTitle"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:327
+msgid "Promo Two Button Text"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:338
+msgid "Promo Two Button Link"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:345
+msgid "Product Category Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:358
+#: inc/customizer/zigcy-lite-customizer.php:436
+msgid "Enable Disable Porduct Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:374
+msgid "Select Category "
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:375
+msgid "The list will display categories from Product"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:391
+#: inc/customizer/zigcy-lite-customizer.php:478
+#: inc/customizer/zigcy-lite-customizer.php:573
+#: inc/customizer/zigcy-lite-customizer.php:832
+#: inc/customizer/zigcy-lite-customizer.php:919
+msgid "Instructions"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:392
+#: inc/customizer/zigcy-lite-customizer.php:479
+#: inc/customizer/zigcy-lite-customizer.php:574
+#: inc/customizer/zigcy-lite-customizer.php:833
+#: inc/customizer/zigcy-lite-customizer.php:920
+msgid "Install WooCommerce Plugin to list options"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:401
+msgid "Product Category Slider Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:412
+#: inc/customizer/zigcy-lite-customizer.php:852
+msgid "Product Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:423
+#: inc/customizer/zigcy-lite-customizer.php:863
+msgid "Product SubTitle"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:451
+#: inc/customizer/zigcy-lite-customizer.php:535
+#: inc/customizer/zigcy-lite-customizer.php:892
+msgid "Product Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:452
+#: inc/customizer/zigcy-lite-customizer.php:536
+msgid " Select Category to display products"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:464
+#: inc/customizer/zigcy-lite-customizer.php:548
+#: inc/customizer/zigcy-lite-customizer.php:818
+#: inc/customizer/zigcy-lite-customizer.php:904
+msgid "Total Products To Show"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:465
+#: inc/customizer/zigcy-lite-customizer.php:549
+#: inc/customizer/zigcy-lite-customizer.php:819
+#: inc/customizer/zigcy-lite-customizer.php:905
+msgid "Display number of products as your need"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:486
+msgid "Feature Product Category Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:497
+msgid "Enable Disable Feature Porduct Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:511
+msgid "Feature Product Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:522
+msgid "Feature Product SubTitle"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:560
+#: inc/customizer/zigcy-lite-customizer.php:807
+msgid "Show Product Rating"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:561
+#: inc/customizer/zigcy-lite-customizer.php:808
+msgid "Check the box to show product ratings"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:581
+msgid "CTA Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:592
+msgid "Enable Disable CTA Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:606
+msgid "CTA Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:616
+msgid "CTA SubTitle"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:626
+msgid "Price Text"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:638
+msgid "Upload Background Image"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:649
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:660
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:667
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:678
+msgid "Enable Disable Blog Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:692
+msgid "Blog  Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:703
+msgid "Blog Subtitle"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:715
+#: inc/customizer/zigcy-lite-customizer.php:954
+msgid "Choose Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:716
+msgid " Select Category to display post"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:724
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:728
+msgid "Read More Button"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:729
+msgid "Change text of read more buttons on homepage sections and archive pages"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:739
+msgid "Word length"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:740
+msgid "Enter number of letters for posts to show on blog section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:746
+msgid "Latest Category Product"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:757
+msgid "Enable Disable Latest Category Product Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:771
+msgid "Latest Category Product Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:781
+msgid "Latest Category Product SubTitle"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:794
+msgid "Latest Product Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:795
+msgid " Select Category to display latest products"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:841
+msgid "Product Category Tab Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:876
+msgid "Enable Disable Porduct Tab Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:893
+msgid "Choose Multiple categories to display product tab section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:927
+msgid "Client Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:938
+msgid "Enable Disable Client Section"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:955
+msgid " Select Category to display logo"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:966
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:975
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:987
+msgid "Footer Image"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:993
+msgid "Design Settings"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:994
+msgid "Manage design for your site"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1005
+msgid "Archive Post"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1017
+msgid "Archive Post Sidebar Option"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1032
+msgid "Archive Post Excerpt Length"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1033
+msgid "Enter word limit for archive forms"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1038
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1050
+msgid "Single Post Sidebar Option"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1060
+msgid "Single Page Settings"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1072
+msgid "Single page Sidebar Option"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1083
+msgid "Single Product Layout"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1095
+msgid "Single Product Sidebar Option"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1106
+msgid "Archive Product Layout"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1118
+msgid "Archive Product Sidebar Option"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1129
+msgid "Additional Option"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1141
+msgid "Show Product Share Icons"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1154
+msgid "Blog Category Post"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1155
+msgid "Choose Categories to exclude posts in Blog Page"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1209
+msgid "Exclude Category"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1210
+msgid "Exclude categories from blog page"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1220
+msgid "Template Color"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1221
+msgid "Choose the template color"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1231
+msgid "Mobile Navigation Option"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1243
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1244
+msgid "Add logo to display on mobile devices"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1250
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1260
+msgid "Show Cart Icons"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-customizer.php:1275
+msgid "Cart Title"
+msgstr ""
+
+#: inc/customizer/zigcy-lite-sanitize.php:111
+msgid "Layout Three"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:216
+msgid "Browse:"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:217
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:218
+msgid "Home"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:219 inc/etc/breadcrumb.php:1221
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:220
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: inc/etc/breadcrumb.php:222
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. %s is the page number.
+#: inc/etc/breadcrumb.php:224
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/etc/breadcrumb.php:226
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/etc/breadcrumb.php:228
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:680
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:697
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:714
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:730 inc/etc/breadcrumb.php:759
+#: inc/etc/breadcrumb.php:786 inc/etc/breadcrumb.php:813
+#: inc/etc/breadcrumb.php:1154
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:731 inc/etc/breadcrumb.php:787
+#: inc/etc/breadcrumb.php:1158
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:732 inc/etc/breadcrumb.php:1162
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/etc/breadcrumb.php:760
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#. %s: search term
+#: inc/etc/breadcrumb.php:1226
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/etc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. %s: post author.
+#: inc/etc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/etc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#: inc/etc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/etc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/etc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/etc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/etc/woocommerce.php:280 inc/etc/woocommerce.php:290
+msgid "All Categories"
+msgstr ""
+
+#: inc/etc/woocommerce.php:309
+msgid "search entire store here"
+msgstr ""
+
+#. 1: total product count.
+#: inc/etc/woocommerce.php:529
+#, php-format
+msgid "There is %1$s product"
+msgstr ""
+
+#. 1: total product count.
+#: inc/etc/woocommerce.php:532
+#, php-format
+msgid "There are %1$s products"
+msgstr ""
+
+#: inc/home-section/feat-pro-cat.php:73 inc/home-section/lat-cat-pro.php:106
+msgid "No Category Selected"
+msgstr ""
+
+#: inc/home-section/product-tab.php:66
+msgid "loader"
+msgstr ""
+
+#: inc/hooks/footer.php:25
+msgid "WordPress Theme : "
+msgstr ""
+
+#: inc/hooks/footer.php:25
+msgid "https://accesspressthemes.com/wordpress-themes/zigcy-lite"
+msgstr ""
+
+#. Name of the theme
+#: inc/hooks/footer.php:25
+msgid "Zigcy Lite"
+msgstr ""
+
+#: inc/hooks/header.php:133
+msgid "Logout"
+msgstr ""
+
+#: inc/hooks/header.php:144
+msgid "Login/Signup"
+msgstr ""
+
+#: inc/hooks/header.php:169
+msgid "Browse Categories"
+msgstr ""
+
+#: inc/hooks/header.php:226
+msgid "Search"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:17
+msgid "AP Theme Utility"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:22
+msgid ""
+"AP Theme Utility Plugin adds the feature to Import the Demo Content with a "
+"single click."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:72
+msgid "Zigcy Setup"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:73
+msgid ""
+"Zigcy Lite is a customizer based WooCommerce Theme built to create stunning "
+"e-commerce or online stores. This theme that comes up with deep WooCommerce "
+"integration introduces all the WooCommerce features in the most brilliant "
+"way possible."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:76
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:77
+msgid "Deactivate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:78 inc/welcome/welcome-config.php:95
+msgid "Activate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:81
+msgid "Step 1 - Documentation"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:82
+msgid ""
+"Read the Documentation and follow the instructions to manage the site , it "
+"helps you to set up the theme more easily and quickly. The Documentation is "
+"very easy with its pictorial  and well managed listed instructions. "
+msgstr ""
+
+#: inc/welcome/welcome-config.php:83
+msgid "Read Now"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:84
+msgid "Step 2 - Customizer Options Panel"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:85
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:86
+msgid "Go to Customizer Panels"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:89
+msgid "Pro Plugins"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:90
+msgid "Take Advantage of some of our Premium Plugins."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:91
+msgid "Free Plugins"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:92
+msgid "These Free Plugins might be handy for you."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:96
+msgid "Activated"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:97
+msgid "Installing Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:98
+msgid "Demo Installed"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:99
+msgid "Are you sure to import demo content ?"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:102
+msgid "All Recommended action has been successfully completed."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:103
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:120
+msgid "Fashion Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:132
+msgid "Furniture Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:143
+msgid "Electronics Demo"
+msgstr ""
+
+#: inc/welcome/welcome.php:34
+msgid "Getting Started"
+msgstr ""
+
+#: inc/welcome/welcome.php:35
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/welcome/welcome.php:36
+msgid "Import Demo"
+msgstr ""
+
+#: inc/welcome/welcome.php:37
+msgid "Support"
+msgstr ""
+
+#: inc/welcome/welcome.php:38
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "Welcome! Thank you for choosing"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "Please make sure you visit our"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "Welcome Page"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "to get started with Swing."
+msgstr ""
+
+#: inc/welcome/welcome.php:97
+msgid "Lets Get Started"
+msgstr ""
+
+#. %1$s: theme name, %2$s: theme version
+#: inc/welcome/welcome.php:118
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: inc/welcome/welcome.php:264
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: inc/welcome/welcome.php:273
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: inc/welcome/welcome.php:354 inc/welcome/welcome.php:374
+msgid "Plugin Does not Exists"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:84
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:101
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:108
+msgid "No products in the cart."
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:19
+msgid "My Wishlist"
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:63
+#: inc/etc/woocommerce/yith-functions.php:171
+msgid "Recently added item(s)"
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:129
+#: inc/etc/woocommerce/yith-functions.php:234
+#: inc/etc/woocommerce/yith-functions.php:297
+msgid "View Wishlist"
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:137
+#: inc/etc/woocommerce/yith-functions.php:240
+msgid "No products in the wishlist."
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:285
+msgid "Add to Wishlist"
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:287
+msgid "Add To Wishlist"
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:290
+msgid "loading"
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:305
+msgid "Browse Wishlist"
+msgstr ""
+
+#: inc/etc/woocommerce/yith-functions.php:336
+msgid "Compare"
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:42
+msgid "Plugin"
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:124
+msgid "Install : "
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:124
+msgid " Plugin"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:3
+msgid "ONE TIME PAYMENT"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:4
+msgid "No renewal needed"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:8
+msgid "UNLIMITED DOMAIN LICENCE"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:9
+msgid "Use in as many website as you need"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:13
+msgid "FREE UPDATES FOR LIFE TIME"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:14
+msgid "Keep upto date"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:21
+#: inc/welcome/sections/free_vs_pro.php:204
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:22
+#: inc/welcome/sections/free_vs_pro.php:205
+msgid "Upgrade to pro version for additional features and better supports."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:25
+#: inc/welcome/sections/free_vs_pro.php:208
+msgid "Buy Now ($50 only)"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:29
+msgid "Features"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:30
+msgid "Free"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:31
+msgid "Pro"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:35
+msgid "One Click Demo Import."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:36
+msgid ""
+"Tired of configuring site from scratch. Installation of demo is just one "
+"click away."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:47
+msgid "Live Ajax Search"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:48
+msgid "Find your product more easily."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:60
+msgid ""
+"Configure your website with any header layouts according to your need\n"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:64
+msgid "2"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:67
+msgid "6"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:72
+msgid "Powerful Theme Option"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:73
+msgid "The theme has powerful theme option."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:84
+msgid "Product Sale Countdown"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:85
+msgid "The theme has product sale countdown option."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:96
+msgid "Lazyload Images"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:97
+msgid "Speed up your store with lazyload images."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:108
+msgid "Visual Composer Compatible"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:109
+msgid ""
+"The theme is highly customizable with custom 22+ visual composer addons."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:120
+msgid "Preloader Option"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:121
+msgid ""
+"The theme has highly customizable preloader options with custom preloader "
+"option."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:132
+msgid "Typography Option"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:133
+msgid ""
+"The premium theme has highly customizable typography options with tons of "
+"google fonts."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:144
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:145
+msgid "Displays fine in device with screen sizes."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:156
+msgid "Unlimited theme colors"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:157
+msgid ""
+"Offers unlimited theme colors choose any of your choice and create a "
+"delightful site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:168
+msgid "WPML  Compatible"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:169
+msgid ""
+"The theme is fully compatible with WordPress Multilingual plugin WMPL and "
+"Polylang."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:180
+msgid "Woocommerce Compatible"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:181
+msgid ""
+"The theme is fully compatible with WooCommerce to power your online stores."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:192
+msgid "SEO Optimized"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:193
+msgid "Google will love it."
+msgstr ""
+
+#: inc/welcome/sections/recommended_plugins.php:40
+#: inc/welcome/sections/recommended_plugins.php:82
+#: inc/welcome/sections/recommended_plugins.php:139
+msgid "Version "
+msgstr ""
+
+#: inc/welcome/sections/support.php:2
+msgid "Documentation"
+msgstr ""
+
+#: inc/welcome/sections/support.php:3
+msgid ""
+"Read the detailed documentation of the theme. The documentation contain all "
+"the necessary information required to setup the theme Zigcy Lite."
+msgstr ""
+
+#: inc/welcome/sections/support.php:4
+msgid "Read Full Documentation"
+msgstr ""
+
+#: inc/welcome/sections/support.php:8 inc/welcome/sections/support.php:10
+msgid "Create Support Tickets"
+msgstr ""
+
+#: inc/welcome/sections/support.php:9
+msgid ""
+"Still having problem after reading all the documentation? No Problem!! "
+"Please create a support ticket. Our dedicated support team will help you to "
+"solve your problem"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:30
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:44
+msgid "Clear"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Zigcy Lite is a stylish and creative free WooCommerce theme specifically "
+"built to create stunning e-commerce or online stores. Zigcy Lite has "
+"everything that you ever wanted in an eCommerce theme. To begin with, it has "
+"three beautifully designed inbuilt demos (with many more elegant demos to be "
+"added soon) that can be imported with just a click of a button.  It is "
+"neatly coded, elegantly designed and has a highly configurable homepage. It "
+"is also fast loading, translation ready and fully built on customizer. This "
+"is a next generation WooCommerce theme, which means you can use all the "
+"amazing WooCommerce features to the fullest. The theme has 2 WooCommerce "
+"Archive Layout (Left Sidebar, Right Sidebar, No Sidebar, Both Sidebar) with "
+"4 different unique page and posts layout. It also specializes in creating "
+"beautiful product and checkout pages - that are must have options for "
+"converting any visitor into a customer. On top of all, the theme comes with "
+"deep WooCommerce intergration and attractive CTA section. With this theme, "
+"you can search for products and content in the smoothest way possible. Also, "
+"it features the appealing slider section where you can promote your products "
+"and captivate your visitors' attention. Packaged with tempting eCommerce "
+"features, flawless functionalities, intuitive interface and modern design, "
+"Zigcy Lite makes it to the powerful and perfect WordPress theme for any kind "
+"of online stores or web shops. So, if you are looking to create a great "
+"eCommerce site in no time and without much fuss, download Zigcy Lite. Once "
+"you download the theme, you will soon know how easy it is to create an "
+"online store where customers actually buy."
+msgstr ""
+
+#. URI of the theme
+msgid "https://accesspressthemes.com/wordpress-themes/zigcy-lite/"
+msgstr ""
+
+#. Author of the theme
+msgid "Access Press Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://accesspressthemes.com"
+msgstr ""

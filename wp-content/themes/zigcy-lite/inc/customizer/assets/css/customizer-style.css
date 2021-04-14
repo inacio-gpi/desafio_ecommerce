@@ -1,0 +1,70 @@
+/*Design Setting Layouts*/
+#store-mart-lite-sidebar-img-container .store-mart-lite-sidebar-radio-img-selected, #tm-img-container-meta .store-mart-lite-sidebar-radio-img-selected {
+    border: 2px solid #555d66 !important;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#store-mart-lite-sidebar-img-container .store-mart-lite-sidebar-radio-img-img {
+    border: 2px solid #DEDEDE;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    float: left;
+}
+img.store-mart-lite-sidebar-radio-img-img:hover {
+    border: 2px solid #555d66 !important;
+}
+
+#store-mart-lite-sidebar-img-container input[type=checkbox]:checked {
+ border: 2px solid #555d66 !important;   
+}
+
+.zigcy-lite-control-hide{
+    display: none !important;
+}
+
+/** ================================= Home section Icons ===================================== **/
+#sub-accordion-panel-zigcy_lite_home_setting > li.control-section#accordion-section-zigcy_lite_slider_promo_setting > h3:before {
+    content: "\f160";
+}
+#sub-accordion-panel-zigcy_lite_home_setting > li.control-section > h3:before {
+    content: "\f545";
+    opacity: 0.5;
+    font: 400 20px/21px dashicons;
+    speak: none;
+    display: inline-block;
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#accordion-section-zigcy-lite {
+    display: block !important;
+}
+
+#accordion-section-zigcy-lite .button {
+    /*margin-top: -3px;*/
+    background: #ffe100;
+    color: #ff3232;
+    border: 1px solid #ffe100;
+}
+
+li.accordion-section.free-vs-pro-cust h3.accordion-section-title{
+        padding: 20px 10px 25px 14px;    
+    text-align: center;
+    display: block;
+}
+li.accordion-section.free-vs-pro-cust a.button.button-secondary.alignright{
+    margin: 0 auto;
+    display: inline-block;
+    float: none;
+    margin-top: 10px;
+}
