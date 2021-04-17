@@ -1,0 +1,153 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.section {
+		padding: 50px 0px;
+	}
+	.section-title {
+		margin-bottom: 50px;
+		padding: 0px 109px;
+	}
+	.section-title h2 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.header .shopping-list h4 a {
+		font-weight: 500;
+		font-size: 13px;
+	}
+	.header .shopping-item .total span {
+		font-size: 12px;
+		font-weight: 500;
+	}
+	.header .shopping-item .total .total-amount {
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.header .shopping-item .bottom .btn {
+		padding: 8px 20px;
+	}
+	.navbar-nav {
+		display: inline-block !important;
+	}
+	.header.shop .nav li {
+		display: inline-block;
+		margin-right: 2px;
+	}
+	.header.shop .nav li a {
+		font-size: 14px;
+		padding: 15px 15px;
+	}
+	.header .nav li a i {
+		font-size: 8px;
+	}
+	.header.shop .nav .dropdown li {
+		display: block;
+	}
+	.hero-slider {
+		height: 416px;
+	}
+	.most-popular .single-product {
+		margin: 20px 15px 0 15px;
+	}
+	.shop-blog .shop-single-blog {
+		margin: auto;
+	}
+	.shop-services .single-service {
+		padding: 12px 0 12px 65px;
+	}
+	.shop-newsletter .newsletter-inner input {
+		width: 380px;
+	}
+}
+
+/* Mobile Screen */
+
+@media only screen and (max-width: 767px) {
+	.section {
+		padding: 50px 0px;
+	}
+	.section-title {
+		margin-bottom: 30px;
+		padding: 0px 20px;
+	}
+	.section-title h2 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	/* .header .header-inner {
+		display: none
+	} */
+	.most-popular .single-product {
+		margin: 20px 15px 0 15px;
+	}
+	.shop-blog .shop-single-blog {
+		/* margin-bottom: 30px; */
+		margin: auto;
+	}
+	.shop-newsletter .newsletter-inner input {
+		width: 330px;
+		height: 42px;
+		padding: 0 20px;
+		border-radius: 30px;
+		margin-bottom: 10px;
+		display: block;
+		text-align: center;
+	}
+	.shop-newsletter .newsletter-inner .btn {
+		height: 42px;
+		padding: 10px 15px;
+		width: 330px;
+		border-radius: 30px;
+		left: 0;
+		display: block;
+	}
+	.single-product {
+		margin-top: 30px;
+	}
+}
+
+/* Mobile Screen */
+
+@media only screen and (max-width: 450px) {
+	.section {
+		padding: 50px 0px;
+	}
+	.section-title {
+		margin-bottom: 30px;
+		padding: 0px 20px;
+	}
+	.section-title h2 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.header .header-inner {
+		display: none
+	}
+	.hero-slider {
+		height: 350px;
+	}
+	.most-popular .single-product {
+		margin: 20px 15px 0 15px;
+	}
+	.shop-blog .shop-single-blog {
+		width: 100%;
+		margin: auto;
+		/* margin-bottom: 30px; */
+	}
+	.shop-newsletter .newsletter-inner input {
+		width: 100%;
+		height: 42px;
+		padding: 0 12px 0 15px;
+		border-radius: 30px;
+		margin-bottom: 10px;
+		display: block;
+		text-align: center;
+	}
+	.shop-newsletter .newsletter-inner .btn {
+		height: 42px;
+		padding: 10px 15px;
+		width: 100%;
+		border-radius: 30px;
+		left: 0;
+		display: block;
+	}
+}
