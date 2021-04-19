@@ -2,13 +2,13 @@
   $(document).on("ready", function () {
     /* Mobile Menu */
 
-    $(".menu").slicknav({
-      prependTo: ".mobile-nav",
-      duration: 300,
-      animateIn: "fadeIn",
-      animateOut: "fadeOut",
-      closeOnClick: true,
-    });
+    // $(".menu").slicknav({
+    //   prependTo: ".mobile-nav",
+    //   duration: 300,
+    //   animateIn: "fadeIn",
+    //   animateOut: "fadeOut",
+    //   closeOnClick: true,
+    // });
 
     /* scrool to Header */
 

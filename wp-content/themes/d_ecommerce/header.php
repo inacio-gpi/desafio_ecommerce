@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes();?>>
+<html <?php language_attributes(); ?>>
 
 <head>
 	<meta charset="utf-8">
@@ -11,7 +11,7 @@
 	<link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/images/new.png">
 	<!--styles -->
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl-carousel.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/reset.css">
@@ -36,27 +36,45 @@
 
 	<!-- Header -->
 	<header class="header shop">
-		<!-- Header Inner -->
+		<!-- HEADER MOBILE -->
 		<div class="header-inner">
 			<div class="container">
 				<div class="cat-nav-head">
 					<div class="row">
-						<div class="col-lg-2">
-							<div class="logo">
-								<a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="logo"></a>
+						<!-- <div class="col-lg-2"> -->
+						<div class="col-12">
+							<!-- <div class="logo"> -->
+							<div class="logo my-auto h-100">
+								<a class="my-auto h-100" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="logo"></a>
+								<!-- <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="logo"></a> -->
 							</div>
-							<div class="mobile-nav"></div>
-						</div>
-						<div class="col-lg-10 col-12">
-							<div class="menu-area">
-								<!-- Main Menu -->
+							<div class="mobile-nav">
+								<!-- <div class="header-inner d-none"> -->
+								<!-- <div class="container"> -->
+								<!-- <div class="cat-nav-head"> -->
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+										<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+									</svg>
+								</button>
+								<!-- </div> -->
+								<!-- </div> -->
+								<!-- </div> -->
+							</div>
+							<!-- </div> -->
+							<!-- <div class="col-lg-10 col-12"> -->
+							<div class="menu-area" id="navbarResponsive">
 								<nav class="navbar navbar-expand-lg">
 									<div class="navbar-collapse">
 										<div class="nav-inner">
 											<ul class="nav main-menu menu navbar-nav">
-												<li><a href="#">VESTIDOS<i class="ti-angle-down"></i></a>
+												<li><a class="h-100" href="#">VESTIDOS<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a>
 												</li>
-												<li><a href="#">BLUSAS<i class="ti-angle-down"></i></a>
+												<li><a class="h-100" href="#">BLUSAS<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a>
 													<ul class="dropdown">
 														<div class="row">
 															<div class="col-md-4">
@@ -80,22 +98,32 @@
 														</div>
 													</ul>
 												</li>
-												<li><a href="#">CALÇAS<i class="ti-angle-down"></i></a></li>
-												<li><a href="#">CAMISAS<i class="ti-angle-down"></i></a></li>
-												<li><a href="#">SHORTS<i class="ti-angle-down"></i></a></li>
-												<li><a href="#">SAIAS<i class="ti-angle-down"></i></a></li>
-												<li><a href="contact.html">MACAQUINHO<i class="ti-angle-down"></i></a>
+												<li><a class="h-100" href="#">CALÇAS<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a></li>
+												<li><a class="h-100" href="#">CAMISAS<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a></li>
+												<li><a class="h-100" href="#">SHORTS<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a></li>
+												<li><a class="h-100" href="#">SAIAS<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a></li>
+												<li><a class="h-100" href="#">MACAQUINHO<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a>
 												</li>
-												<li><a href="contact.html">PRAIA<i class="ti-angle-down"></i></a></li>
-												<li><a href="contact.html" style="color:#ff5959">HOT SALE</a></li>
-												<!-- pesquisa -->
+												<li><a class="h-100" href="#">PRAIA<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+															<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+														</svg></a></li>
+												<li><a class="h-100" href="#" style="color:#ff5959">HOT SALE</a></li>
 												<li class="d-flex">
 													<form class="search-box" action="#" method="post" style="transform: scale(.5)">
 														<input type="text" class="input" placeholder="Pesquisa" name="pesquisa">
 														<button type="button" class="btn-search" name="button"></button>
 													</form>
 												</li>
-												<!-- icon cliente -->
 												<li>
 													<a href="#" class="single-icon">
 														<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
@@ -113,7 +141,6 @@
 													</ul>
 												</li>
 												</li>
-												<!-- balao chat -->
 												<li>
 													<a href="#" class="single-icon">
 														<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
@@ -137,7 +164,6 @@
 														</svg>
 														<span id="total-count"><?php echo sprintf(_n('%d', '%d', WC()->cart->get_cart_contents_count()), WC()->cart->get_cart_contents_count()); ?></span>
 													</a>
-													<!-- Shopping Item -->
 													<ul class="dropdown">
 														<div class="shopping-item">
 															<div class="dropdown-cart-header">
@@ -172,7 +198,6 @@
 										</div>
 									</div>
 								</nav>
-								<!--/ End Main Menu -->
 							</div>
 						</div>
 					</div>

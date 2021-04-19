@@ -352,7 +352,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 	font-weight: 400;
 	/* font-family: "Rubik"; */
 	text-transform: capitalize;
-	padding: 26px 4px;
+	padding: 31px 4px;
 	display: block;
 	position: relative;
 	-webkit-transition: all 0.4s ease;
@@ -382,6 +382,12 @@ Tags: portflio, site pessoal, site responsivo, tema
 .header.shop .nav li .dropdown li a {
 	font-weight: 400;
 	font-size: 14px;
+}
+
+.header.shop .nav li svg {
+	width: 10px;
+	height: 10px;
+	margin-left: 2px;
 }
 
 .header.shop .nav li .single-icon svg {

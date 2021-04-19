@@ -1,3 +1,24 @@
+.mobile-nav {
+	display: none;
+}
+.mobile-nav button{
+	display: none;
+	color: #fff;
+}
+
+@media only screen and (max-width: 1175px) {
+	.mobile-nav {
+		display: inline-block;
+	}
+	.mobile-nav button{
+		display: block;
+		color: #fff;
+	}
+	.navbar-expand-lg .navbar-nav {
+		display: block;
+	}
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.section {
 		padding: 50px 0px;
@@ -26,10 +47,11 @@
 		padding: 8px 20px;
 	}
 	.navbar-nav {
-		display: inline-block !important;
+		display: inline-block;
 	}
 	.header.shop .nav li {
-		display: inline-block;
+		/* display: inline-block; */
+		display: block;
 		margin-right: 2px;
 	}
 	.header.shop .nav li a {
