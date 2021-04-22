@@ -1,5 +1,5 @@
 html {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -155,7 +155,7 @@ td, th {
 
 body, button, input, select, optgroup, textarea {
 	color: #424646;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -192,7 +192,7 @@ address {
 
 pre {
 	background: #eee;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -203,7 +203,7 @@ pre {
 }
 
 code, kbd, tt, var {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -229,39 +229,18 @@ big {
 
 .section-title {
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 18px;
 	padding: 0 215px;
 }
-
-.section-title h2 {
-	font-size: 30px;
-	margin-bottom: 0;
-	text-transform: capitalize;
-	position: relative;
-	color: #2c2d3f;
-	font-weight: 700;
-	padding-bottom: 0;
-}
-
-/* .section-title h2::before {
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 50px;
-	background: #F7941D;
-	left: 50%;
-	bottom: 0;
-	margin-left: -25px;
-} */
 
 .section-title p {
 	font-size: 14px;
 	color: #666;
 }
 
-.container {
+/* .container {
 	max-width: 1170px;
-}
+} */
 
 .overlay {
 	position: relative
@@ -1829,12 +1808,6 @@ embed, iframe, object {
 	transition: all .5s;
 	font-size: 14px;
 	/* display: block; */
-}
-
-.default-social ul li a i {}
-
-.default-social ul li a:hover {
-	color: #F7941D;
 }
 
 /* End Modal Css */

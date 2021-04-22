@@ -15,7 +15,7 @@ if (class_exists('WooCommerce')) {
     add_action('after_setup_theme', 'woocommerceshop_add_woocommerce_support');
 
     // Remove WooCommerce Styles
-    add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+    // add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
     // Remove Shop Title
     add_filter('woocommerce_show_page_title', '__return_false');
@@ -26,6 +26,19 @@ if (class_exists('WooCommerce')) {
     add_theme_support('wc-product-gallery-slider');
     // add_filter ('woocommerce_enqueue_styles', '__return_empty_array');
 }
+
+/**
+ * Enqueue your own stylesheet
+ */
+function wp_enqueue_woocommerce_style(){
+	// wp_register_style( 'mytheme-woocommerce', get_template_directory_uri() . '/style.css' );
+	
+	if ( class_exists( 'woocommerce' ) ) {
+		wp_enqueue_style( 'mytheme-woocommerce' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'wp_enqueue_woocommerce_style' );
+
 
 add_action('after_setup_theme', 'customtheme_add_woocommerce_support');
 add_filter('woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment');

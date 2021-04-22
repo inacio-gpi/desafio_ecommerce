@@ -7,6 +7,13 @@ Version: 1.0
 Tags: portflio, site pessoal, site responsivo, tema
 */
 
+@font-face {
+	font-family: 'Alien Leagues';
+	src: url('fonts/alien_league/alienleague.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* preloader initial */
 
 .preloader {
@@ -42,7 +49,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 	width: 100px;
 	height: 100px;
 	border-radius: 100%;
-	background: #F7941D;
+	background: #ff5959;
 	-webkit-animation: preloader-fx 1.6s linear infinite;
 	animation: preloader-fx 1.6s linear infinite;
 }
@@ -95,7 +102,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 
 .btn:hover {
 	color: #fff;
-	background: #F7941D;
+	background: #ff5959;
 }
 
 #scrollUp {
@@ -122,7 +129,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 }
 
 #scrollUp i:hover {
-	background: #F7941D;
+	background: #ff5959;
 	color: #fff;
 }
 
@@ -140,13 +147,13 @@ Tags: portflio, site pessoal, site responsivo, tema
 
 .header .navbar {
 	padding: 0;
+	background: #272727;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
 }
 
 /* Main Menu */
-
-.navbar-expand-lg .navbar-collapse {
-	display: block !important;
-}
 
 .header .nav li a i {
 	margin-left: 3px;
@@ -268,7 +275,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 }
 
 .header .shopping-list h4 a:hover {
-	color: #F7941D;
+	color: #ff5959;
 }
 
 .header .shopping-item .bottom {
@@ -307,7 +314,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 }
 
 .header .shopping-item .bottom .btn:hover {
-	background: #F7941D;
+	background: #ff5959;
 	color: #fff;
 }
 
@@ -346,18 +353,27 @@ Tags: portflio, site pessoal, site responsivo, tema
 }
 
 .header.shop .nav li a {
+	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	line-height: 16px;
 	color: #ffffff;
 	font-weight: 400;
-	/* font-family: "Rubik"; */
 	text-transform: capitalize;
 	padding: 31px 4px;
-	display: block;
 	position: relative;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
+	display: flex;
+	align-items: center;
+}
+
+.header.shop .nav li a.hot-sale {
+	font-size: 15px;
+	letter-spacing: 0px;
+	line-height: 12px;
+	color: #ff5959;
+	font-family: "Alien League";
 }
 
 .header.shop .nav li:hover>a {
@@ -489,32 +505,51 @@ Tags: portflio, site pessoal, site responsivo, tema
 	margin-top: -80px;
 }
 
+#info-header .sob-header .col-md-3 {
+	border-right: 1px solid #e9e9e9;
+}
+
 #info-header .sob-header img {
 	margin-bottom: 11px;
 }
 
 #info-header .sob-header h6 {
-	font-size: 14px;
-	line-height: 20px;
 	/* line-height: 16px; */
+	line-height: 20px;
+	font-size: 14px;
 	color: #272727;
 	font-weight: 500;
-	/* font-family: "Rubik"; */
+	font-family: 'Rubik', sans-serif;
 }
 
 #info-header .sob-header p {
 	font-size: 12px;
-	line-height: 15px;
-	/* line-height: 10px; */
 	color: #272727;
 	font-weight: 400;
-	font-family: "Rubik";
+	font-family: 'Rubik', sans-serif;
 	text-align: center;
+	/* line-height: 10px; */
+	line-height: 15px;
 }
 
-.most-popular .section-title {
+.most-popular .section-title h2 {
 	margin-bottom: 20px;
+	font-size: 25px;
+	line-height: 16px;
+	color: #6a6a6a;
+	font-weight: 300;
+	font-family: 'Rubik', sans-serif;
 }
+
+/* .section-title h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	position: relative;
+	color: #2c2d3f;
+	font-weight: 700;
+	padding-bottom: 0;
+} */
 
 .most-popular .single-product {
 	margin: 50px 15px 0 15px;
@@ -527,7 +562,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 	position: absolute;
 	top: 50%;
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 8%;
 }
 
 .most-popular .owl-carousel .owl-nav div {
@@ -539,7 +574,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 	color: #333;
 	position: absolute;
 	margin: 0;
-	font-size: 15px;
+	font-size: 21px;
 	text-align: center;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -549,7 +584,7 @@ Tags: portflio, site pessoal, site responsivo, tema
 
 .most-popular .owl-carousel .owl-nav div:hover {
 	color: #fff;
-	background: #F7941D;
+	background: #ff5959;
 }
 
 .most-popular .owl-carousel .owl-controls .owl-nav .owl-prev {
@@ -569,9 +604,87 @@ Tags: portflio, site pessoal, site responsivo, tema
 }
 
 .single-product .product-img {
-	position: relative;
+	/* position: relative;
 	overflow: hidden;
-	cursor: pointer;
+	cursor: pointer; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/* border-radius: 4px; */
+	height: 250px;
+	position: relative;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	z-index: 0;
+}
+
+.single-product .product-img:after {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: '';
+	background: #000000;
+	opacity: 0;
+	border-radius: 4px;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+.single-product:hover .product-img:after {
+	opacity: .7;
+}
+
+.single-product .product-img .desc img {
+	height: 60px;
+	width: 60px;
+	margin-left: 78%;
+	margin-bottom: 65%;
+}
+
+.single-product .product-img .desc a {
+	width: 154px;
+	height: 39px;
+	border-radius: 1px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #ffffff;
+	margin: 0 2px;
+	/* width: auto; */
+	/* height: 45px; */
+	/* border: 1px solid rgba(255, 255, 255, 0.5); */
+	/* padding: 0 20px; */
+	color: #fff;
+	font-size: 19px;
+	letter-spacing: 0px;
+	line-height: 23px;
+	color: #ffffff;
+	font-family: "Alien League";
+}
+
+.single-product .product-img .desc a:hover {
+	color: #000;
+	background: #fff;
+}
+
+.single-product:hover .product-img .desc {
+	opacity: 1;
+}
+
+.single-product .product-img .desc {
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	opacity: 0;
 }
 
 .single-product .product-img a {
@@ -583,14 +696,14 @@ Tags: portflio, site pessoal, site responsivo, tema
 	width: 100%;
 }
 
-.single-product .product-img a img.hover-img {
+/* .single-product .product-img a img.hover-img {
 	position: absolute;
 	left: 0;
 	top: 0;
 	z-index: 1;
 	opacity: 0;
 	transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 2s cubic-bezier(0, 0, 0.44, 1.18);
-}
+} */
 
 .single-product .product-img .product-action-2 a {
 	background-color: transparent;
@@ -660,19 +773,21 @@ Tags: portflio, site pessoal, site responsivo, tema
 }
 
 .single-product .product-content h3 a:hover {
-	color: #F7941D;
+	color: #ff5959;
 }
 
 .single-product .product-content .product-price {
 	margin: 6px 0 0 0;
+	display: grid;
 }
 
 .single-product .product-content .product-price span {
-	font-size: 15px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .single-product .product-content .product-price span.old {
+	font-size: 14px;
 	text-decoration: line-through;
 	opacity: .6;
 	margin-right: 2px;
@@ -705,17 +820,22 @@ Tags: portflio, site pessoal, site responsivo, tema
 	margin-bottom: 30px;
 }
 
+/* 
 .shop-newsletter .inner p span {
-	color: #F7941D;
+	color: #ff5959;
 }
+*/
 
-.shop-newsletter .newsletter-inner {
+.site-footer .newsletter {
 	position: relative;
-	display: inline-block;
+	/* display: inline-block; */
+	display: inline-flex;
 }
 
-.shop-newsletter .newsletter-inner input {
-	width: 480px;
+/* .shop-newsletter .newsletter-inner input { */
+
+.site-footer .newsletter input {
+	width: auto;
 	height: 55px;
 	border-radius: 0px;
 	padding: 0px 30px;
@@ -725,34 +845,34 @@ Tags: portflio, site pessoal, site responsivo, tema
 	box-shadow: none;
 	border-radius: 0;
 	border: none;
-	border: 1px solid #ececec;
-	border-radius: 30px 0 0 30px;
+	border: 1px solid #333;
+	/* border-radius: 30px 0 0 30px; */
 }
 
-.shop-newsletter .newsletter-inner button {
+.site-footer .newsletter button {
 	border: none;
 	text-shadow: none;
 	box-shadow: none;
 	border-radius: 0;
 }
 
-.shop-newsletter .newsletter-inner .btn {
+.site-footer .newsletter .btn {
 	display: inline-block;
 	height: 55px;
-	padding: 10px 30px;
+	padding: 10px 25px;
 	position: relative;
 	top: 0;
-	background: #F7941D;
 	color: #fff;
 	left: -4px;
-	border-radius: 0 30px 30px 0;
+	/* border-radius: 0 30px 30px 0; */
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
+	background: #333;
 }
 
-.shop-newsletter .newsletter-inner .btn:hover {
-	background: #333;
+.site-footer .newsletter .btn:hover {
+	background: #ff5959;
 	color: #fff;
 }
 
@@ -761,7 +881,8 @@ Tags: portflio, site pessoal, site responsivo, tema
 /* Start Shop Blog CSS */
 
 .shop-blog .shop-single-blog {
-	width: 361px;
+	width: 100%;
+	/* width: 361px; */
 	height: 280px;
 	background-color: #e9e9e9;
 	text-align: center;
@@ -777,7 +898,32 @@ Tags: portflio, site pessoal, site responsivo, tema
 /* new footer */
 
 .site-footer {
-	padding: 4em 0;
+	/* padding: 4em 0; */
+	padding-bottom: 4em;
+}
+
+.site-footer .header-footer {
+	font-family: 'Alien Leagues';
+	letter-spacing: 0px;
+	color: #3d3737;
+	line-height: 28px;
+}
+
+.site-footer .header-footer h6 {
+	font-size: 21px;
+}
+
+.site-footer .header-footer h4 {
+	font-size: 31px;
+}
+
+.site-footer .text-newsletter {
+	font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 14px;
+	color: #272727;
+	font-weight: 400;
+	font-family: "Rubik";
 }
 
 .site-footer ul li {
@@ -786,16 +932,30 @@ Tags: portflio, site pessoal, site responsivo, tema
 
 .site-footer ul li a {
 	color: #5c626e;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	color: #6a6a6a;
+	font-weight: 500;
+	font-family: 'Rubik', sans-serif;
 }
 
 .site-footer ul li a:hover {
-	color: #207dff;
+	color: #ff5959;
+}
+
+.site-footer a:hover {
+	color: #ff5959;
 }
 
 .site-footer .footer-heading {
-	font-size: 1.2rem;
-	color: #000;
 	margin-bottom: 1rem;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 16px;
+	color: #6a6a6a;
+	font-weight: 300;
+	font-family: 'Rubik', sans-serif;
 }
 
 /* End Footer CSS */
@@ -870,4 +1030,176 @@ Tags: portflio, site pessoal, site responsivo, tema
 .my-6 {
 	margin-bottom: 1.1rem!important;
 	margin-top: 1.1rem!important;
-}   
+}
+
+/* header button search */
+
+.header .module.widget-handle {
+	padding: 0 5px;
+	cursor: pointer;
+	position: relative;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+}
+
+.header .module.widget-handle {
+	padding: 0 5px;
+	position: relative;
+	-webkit-touch-callout: none;
+	margin: 0;
+}
+
+.header .module {
+	display: inline-block;
+	padding: 0 32px;
+}
+
+.header .search-widget-handle .search {
+	background: 0 0;
+	border: none;
+}
+
+.header .widget-handle .function {
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+	cursor: default;
+	width: 200px;
+	background: #0e1015;
+	position: absolute;
+	z-index: 99;
+	opacity: 0;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transform: translate3d(0, -200%, 0);
+	-webkit-transform: translate3d(0, -200%, 0);
+	-moz-transform: translate3d(0, -200%, 0);
+	margin-top: -2px;
+	right: 0;
+}
+
+.header .widget-handle .function {
+	background: #fff;
+	width: 500px;
+	height: 86px;
+	display: flex;
+	align-items: center;
+}
+
+.header .search-form {
+	padding: 8px;
+	display: inline-block;
+	width: 100%;
+	line-height: 50px;
+}
+
+.header .screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute!important;
+	width: 1px;
+	word-wrap: normal!important;
+}
+
+.header .widget-handle .search-form input[type=text] {
+	font-size: 16px;
+	float: left;
+	width: 85%;
+}
+
+.header .search-form input[type=text] {
+	font-size: 14px;
+	margin: 0;
+}
+
+.header input[type=text], .header input[type=search], .header input[type=email], .header input[type=tel] {
+	background: #fff;
+	border: none !important;
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	font-weight: 500;
+	margin-bottom: 24px;
+	border-radius: 0;
+}
+
+.header .btn.searchsubmit, .search-widget-handle button.searchsubmit, .woocommerce-product-search>input[type=submit] {
+	padding: 0;
+	width: auto;
+	height: 50px;
+	line-height: 48px;
+	margin: -2px 0 0 8px;
+}
+
+.header input[type=submit], .header button[type=submit] {
+	background: #fff;
+	border-radius: 0!important;
+	border: 0;
+	color: #272727;
+	font-size: 11px;
+	font-weight: 700;
+	height: 50px;
+	letter-spacing: 1px;
+	line-height: 48px;
+	max-width: 250px;
+	padding: 0;
+	width: 10%;
+}
+
+.header .module.widget-handle .search i {
+	font-size: 14px;
+	line-height: 53px;
+	opacity: 1;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	color: #fff;
+}
+
+.header .module.widget-handle .function i {
+	font-size: 30px;
+	line-height: 53px;
+	opacity: 1;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	color: #272727;
+}
+
+.header .search-widget-handle button.searchsubmit .screen-reader-text {
+	position: relative!important;
+	width: auto;
+	height: auto;
+	clip: initial;
+	clip-path: none;
+	-webkit-clip-path: none;
+	word-wrap: normal!important;
+}
+
+.header .module.widget-handle:hover .function, .module.widget-handle:focus .function, .module.widget-handle .function.active {
+	opacity: 1;
+	transform: translate3d(0, 0px, 0);
+	-webkit-transform: translate3d(0, 0px, 0);
+	-moz-transform: translate3d(0, 0px, 0);
+	visibility: visible;
+}
+
+.header .widget-handle .search-form input[type=text]:focus {
+	outline: none !important;
+	border: 1px solid #fff!important;
+	box-shadow: 0 0 0 #fff;
+}
+
+/* end header button search */

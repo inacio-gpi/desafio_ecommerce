@@ -1,25 +1,29 @@
 (function ($) {
   $(document).on("ready", function () {
-    /* Mobile Menu */
+    
+    $(".btn-search").on("click", function () {
+      $(".input").toggleClass("inclicked");
+      $(".btn-search").toggleClass("close");
+    });
+    $(".module.widget-handle").click(function () {
+      $(this).toggleClass("toggle-search");
+    });
 
-    // $(".menu").slicknav({
-    //   prependTo: ".mobile-nav",
-    //   duration: 300,
-    //   animateIn: "fadeIn",
-    //   animateOut: "fadeOut",
-    //   closeOnClick: true,
-    // });
+    // mobile
+    $(".mobile-toggle").click(function () {
+      $(".nav-bar").toggleClass("nav-open");
+      $(this).toggleClass("active");
+      $(".search-widget-handle").toggleClass("hidden-xs hidden-sm");
+    });
 
-    /* scrool to Header */
+    $(".module.widget-handle").click(function () {
+      $(this).toggleClass("toggle-search");
+    });
 
-    // jQuery(window).on("scroll", function () {
-    //   if ($(this).scrollTop() > 200) {
-    //     $(".header").addClass("sticky");
-    //   } else {
-    //     $(".header").removeClass("sticky");
-    //   }
-    // });
-
+    $(".search-widget-handle .search-form input").click(function (e) {
+      if (!e) e = window.event;
+      e.stopPropagation();
+    });
     /* Popular Slider */
 
     $(".popular-slider").owlCarousel({
@@ -35,8 +39,8 @@
       merge: true,
       dots: false,
       navText: [
-        '<i class="ti-angle-left"></i>',
-        '<i class="ti-angle-right"></i>',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg>',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>',
       ],
       responsive: {
         0: {
@@ -74,6 +78,5 @@
   setTimeout(function () {
     //After 2s, the no-scroll class of the body will be removed
     $("body").removeClass("no-scroll");
-  }, 2000); //Here you can change preloader time
-  // teste
+  }, 2000);
 })(jQuery);
